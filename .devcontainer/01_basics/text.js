@@ -4,8 +4,7 @@ console.log("shubh")
 const accountId =  144553
 let accountEmail = "11shubhagrawal@gmail.com"
 var accountPassword = "12345"
-accountCity = "Jaipur"
-account
+let accountCity = "Jaipur"
 /*
 prefer not to use var cuz of issue of block scope and functional scope
 */
@@ -26,3 +25,18 @@ let isLoggedIn = false
 //object 
 console.log(typeof isLoggedIn) ;
 console.log(typeof null) ;    //null is an object in js but it is a primitive data type
+
+console.log(typeof undefined) ; // undefined is a primitive data type
+let num = "33"
+console.log(typeof num) ;
+let valueInNumber = Number(num)
+console.log(typeof valueInNumber) ;
+console.log(valueInNumber) ;
+
+//"33" => 33 
+//"33abc" => NaN
+//true => 1 ; false => 0 
+//"" => false ; " " => true ; "xyz" => true
+
+
+
