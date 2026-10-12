@@ -80,7 +80,8 @@
 
 
 let bhalue = "a" ;
-let bhailue = Number(bhalue) ;  
+let bhailue = Number(bhalue) ;
+console.log(bhalue.replace('a' , 'b'))  
 
 console.table([bhalue , bhailue , Number(true) , Boolean(0) ,"1" + (2 + 3) , "a" <= 0 ]) ;  
 
