@@ -51,9 +51,9 @@ const chai = () => {
     let username = "shubh" 
     console.log(this)
     console.log(this.username)
-
+    
 }
- //           IFFE
+//           IIFE
 
 (function chai() {
     console.log(`print smthi`) ;
